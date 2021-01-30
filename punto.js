@@ -60,43 +60,7 @@ var Punto = /** @class */ (function () {
         }
         return puntoMasCercano;
     };
-    ;
     return Punto;
 }());
 exports.Punto = Punto;
 ;
-/*
-
-var best;
-var best_dif = 9999;
-var dif;
-for(i = 1; i < puntos.length; ++i){
-    dif = Math.abs(this.x - puntos[i].getX()) +
-        Math.abs(this.y - puntos[i].getY());
-if(best_dif > dif){
-    best_dif = dif;
-    best = puntos[i];
-
-
-return best;
-
-for(i = 0; i < puntos.length; ++i){
-    list.push({lat: Math.random()*100, lng: Math.random()*100});
-    }
-    var point = {lat: Math.random()*100, lng: Math.random()*100};
-    var best;
-    var best_dif = 9999;
-    var dif;
-    for(i = 1; i < list.length; ++i){
-      dif = Math.abs(point.lat - list[i].lat) +
-              Math.abs(point.lng - list[i].lng);
-      if(best_dif > dif){
-          best_dif = dif;
-          best = list[i];
-       }
-    }
-    console.log(point);
-    console.log(best, best_dif);
-    console.timeEnd();
-
-    */

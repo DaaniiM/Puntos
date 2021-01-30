@@ -1,6 +1,7 @@
 "use strict";
 exports.__esModule = true;
 var punto_1 = require("./punto");
+var triangulo_1 = require("./triangulo");
 var punto1 = new punto_1.Punto(4, 5);
 console.log(punto1.toString());
 console.log("------------");
@@ -9,5 +10,10 @@ console.log("------------");
 var punto2 = new punto_1.Punto(6, 8);
 console.log(punto1.calcularDistancia(punto2));
 console.log("------------");
+console.log(punto1.calcularCuadrante());
+console.log("------------");
 var puntosAll = [new punto_1.Punto(5, 4), new punto_1.Punto(6, 8), new punto_1.Punto(7, 4), new punto_1.Punto(5, 5)];
 console.log(punto1.calcularMasCercano(puntosAll));
+console.log("------------");
+var triangulo1 = new triangulo_1.Triangulo(new punto_1.Punto(6, 4), new punto_1.Punto(7, 2), new punto_1.Punto(4, 8));
+console.log(triangulo1.calcularLongitudLados());
