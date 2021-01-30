@@ -25,7 +25,7 @@ console.log(punto1.calcularCuadrante());
 
 console.log("------------");
 
-let puntosAll = [new Punto(5,4),new Punto(6,8),new Punto(7,4),new Punto(5,5)];
+let puntosAll = [new Punto(5,4),new Punto(6,8),new Punto(7,4),new Punto(5,5),new Punto(9,9)];
 
 console.log(punto1.calcularMasCercano(puntosAll));
 
